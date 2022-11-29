@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a {
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(57, 62, 70);
+}
+
+header h1 {
+    color: rgb(247, 247, 247);
+}
+
+header {
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 7.5%;
+    background-color: rgb(57, 62, 70);
+}
+
+.pg-title {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav-bar {
+    list-style: none;
+}
+
+.nav-bar li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-bar li a {
+    padding: 9px 25px;
+    background-color: rgb(242, 231, 213);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    background-color: rgb(109, 152, 134);
+    padding: 2.5% 2.5%;
+}
+
+.intro-message {
+    margin: auto;
+    text-align: center;
+    align-self: center;
+    color: rgb(57, 62, 70);
+}
+
+.intro-interests {
+    font-size: 150%;
+    margin-left: 0 auto;
+    margin-right: 10%;
+    padding-top: 2.5%;
+    text-align: left;
+    width: 40%;
+    color: rgb(247, 247, 247);
+}
+
+.intro-goals {
+    font-size: 150%;
+    margin-right: 0 auto;
+    margin-left: 10%;
+    padding-top: 2.5%;
+    text-align: right;
+    width: 40%;
+    color: rgb(247, 247, 247);
+}
+/* 
+.intro-goals li {
+    font-size: 90%;
+    font-style: none;
+    list-style: none;
+    color: ;
+} */
+
+
+.background-message {
+    margin: auto;
+    padding-top: 2.5%;
+    width: 40%;
+    text-align: center;
+    align-self: center;
+    color: rgb(242, 231, 213);
+}
+
+.img-org {
+    height: 500px;
+    width: 650px;
+    margin: auto;
+    padding-top: 2.5%;
+    align-self: center;
+}
+
+.mail {
+    font-size: 30px;
+}
+
+.intro-proj1 {
+    font-size: 150%;
+    margin: auto;
+    text-align: center;
+    width: 45%;
+    color: rgb(247, 247, 247);
+}
+
+.intro-proj2 {
+    font-size: 150%;
+    margin: auto;
+    padding-top: 2.5%;
+    text-align: center;
+    width: 45%;
+    color: rgb(247, 247, 247);
+}
