@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fae1dd; /* Background color */
-    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+    background-color: #fae1dd;
+    font-family: 'Arial', sans-serif;
 }
 
 h1 {
@@ -10,7 +10,6 @@ h1 {
     margin-top: 20px;
     font-family: 'Brush Script MT', cursive;
     font-size: 50px;
-    display: absolute;
 }
 
 .container {
@@ -23,9 +22,9 @@ h1 {
 
 .levitating-content {
     position: relative;
-    transform: translateZ(0); /* Create a stacking context for the levitating effect */
+    transform: translateZ(0);
     animation: levitate 3s ease-in-out infinite;
-    text-align: center; /* Center text within the container */
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -34,16 +33,22 @@ h1 {
         transform: translateY(0);
     }
     50% {
-        transform: translateY(-20px); /* Adjust the levitation distance */
+        transform: translateY(-20px);
     }
 }
 
-/* Customize the styling of your content */
 .levitating-content p {
-    background-color: #eae2b7; /* Beige background color */
-    padding: 20px; /* Adjust the padding */
-    margin: 0; /* Remove margin */
+    background-color: #eae2b7;
+    padding: 20px;
+    margin: 0;
     border-radius: 25px;
     font-family: 'Brush Script MT', cursive;
-    font-size: 30px; /* Increase the font size */
+    font-size: 30px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .levitating-content p {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
 }
