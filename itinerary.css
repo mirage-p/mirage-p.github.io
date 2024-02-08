@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fae1dd; /* Background color */
+    font-family: 'Arial', sans-serif; /* Change the font family as needed */
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 50px;
+    display: absolute;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.levitating-content {
+    position: relative;
+    transform: translateZ(0); /* Create a stacking context for the levitating effect */
+    animation: levitate 3s ease-in-out infinite;
+    text-align: center; /* Center text within the container */
+    margin-top: 10px;
+}
+
+@keyframes levitate {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* Adjust the levitation distance */
+    }
+}
+
+/* Customize the styling of your content */
+.levitating-content p {
+    background-color: #eae2b7; /* Beige background color */
+    padding: 20px; /* Adjust the padding */
+    margin: 0; /* Remove margin */
+    border-radius: 25px;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 30px; /* Increase the font size */
+}

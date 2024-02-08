@@ -9,3 +9,14 @@ $(document).ready(function() {
         }, "slow");
     });
 });
+
+const yesOption = document.getElementById("yesOption");
+const noOption = document.getElementById("noOption");
+
+yesOption.onclick = function() {
+    window.location.href = 'itenerary.html';
+}
+
+noOption.onclick = function() {
+    window.location.href = 'pain.html';
+}

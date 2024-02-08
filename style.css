@@ -218,3 +218,27 @@ body {
         transform: scaleX(0.85);
     }
 }
+
+.options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin based on your preference */
+}
+
+button {
+    margin: 0 10px; /* Add margin between the buttons if desired */
+    background-color: #eae2b7; /* Match the color scheme */
+    color: #003049; /* Match the color scheme */
+    border: 2px solid #003049; /* Match the color scheme */
+    border-radius: 10px; /* Add border radius */
+    padding: 10px 20px; /* Add padding for better visual appearance */
+    font-family: 'Brush Script MT', cursive; /* Use the same font */
+    font-size: 16px; /* Adjust the font size based on your preference */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003049; /* Change color on hover to create interactivity */
+    color: #eae2b7; /* Change color on hover to create interactivity */
+}
